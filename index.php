@@ -20,14 +20,14 @@ if (file_exists($reviewsFile)) {
 <body>
 
 <header class="site-header">
-    <h1>Recenze</h1>
+    <h1>sigma recenze</h1>
 </header>
 
 <main class="container">
     <section class="card">
         <h2>Napiš recenzi</h2>
 
-        <form class="form" action="/action_page.php" method="post">
+        <form class="form" action="/action_page.php" method="post"> 
             <label for="name">Jméno, Příjmení</label>
             <input type="text" id="name" name="name" placeholder="Jan Novák" required maxlength="60">
 
@@ -61,9 +61,6 @@ if (file_exists($reviewsFile)) {
     </section>
 </main>
 
-<footer class="site-footer">
-    <small>© <?= date("Y") ?></small>
-</footer>
 
 </body>
 </html>
